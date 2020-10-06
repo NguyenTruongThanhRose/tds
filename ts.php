@@ -35,7 +35,7 @@ $banner="\r
       Không Liên Quan Lắm Nhưng Mà Đang Cay   
 \n";  
 //config
-echo "\n";
+echo "\n"
 echo $yellow."NHẬP API KEY: $green";
 $apikey=trim(fgets(STDIN));
 if ($apikey == "Thanh Rose")
